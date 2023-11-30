@@ -1,0 +1,5 @@
+.popup-window {
+    font: inherit;
+}
+
+.button > span {top: 3px;}

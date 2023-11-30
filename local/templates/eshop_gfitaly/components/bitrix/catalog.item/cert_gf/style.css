@@ -1,0 +1,21 @@
+.contact-form #resp-result {
+	text-align: center;
+	padding: 30px;
+}
+
+.contact-form #resp-result h3 {
+	color: #e6b043;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.contact-form #resp-result a {
+	color: #e6b043;
+	font-weight: 500;
+}
+
+.contact-form #resp-result .error {
+	color: red;
+    background: #fbf9f9;
+    padding: 10px;
+}

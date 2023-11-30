@@ -1,0 +1,46 @@
+.popup-window-content {
+    background-color: #fff !important;
+}
+
+.popup-content h3 {
+    color: #e6b043;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.popup-content a {
+    line-height: 30px;
+    text-decoration: underline;
+    color: #e6b043;
+}
+
+.popup-content ul li {
+    line-height: 30px;
+    list-style: inside circle;
+}
+
+.popup-content p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.popup-content form {
+    margin-top: 10px;
+}
+
+
+
+.popup-window-buttons .button {
+    height: auto;
+}
+
+.popup-window-buttons .button:hover {
+    color: #fff;
+}
+
+.error {
+    text-align: center;
+    padding: 5px; 
+    color: red;
+}
