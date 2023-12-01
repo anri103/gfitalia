@@ -2883,8 +2883,7 @@ input:checked~.push {
 	overflow: hidden;
 }
 
-.hello-slider .banner,
-.hello-slider .banner-mobile {
+.hello-slider .banner {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2954,6 +2953,17 @@ input:checked~.push {
 	background: #E6B043;
 }
 
+.hello-slider .banner-video {
+	position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
 @media only screen and (max-width: 768px) {
 	.hello-slider .slick-prev,
 	.hello-slider .slick-next {
@@ -2962,7 +2972,7 @@ input:checked~.push {
 	.hello-slider .slide {
 		min-height: calc(100vh - 60px);
 	}
-	.hello-slider .banner {
+	.hello-slider .banner-desctop {
 		display: none;
 	}
 	.hello-slider .banner-mobile {
