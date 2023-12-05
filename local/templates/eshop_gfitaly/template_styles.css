@@ -2988,6 +2988,15 @@ input:checked~.push {
 	}
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+	.hello-slider .banner-info .banner-title {
+		font-size: 26px;
+	}
+	.hello-slider .banner-info .button {
+		font-size: 14px;
+	}
+}
+
 /* Главная страница. Блок бестселлеров */
 
 .index-products {
