@@ -2988,7 +2988,15 @@ input:checked~.push {
 	}
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+@media only screen and (min-width: 769px) and (max-width: 1400px) {
+	.hello-slider .slick-prev,
+	.hello-slider .slick-next {
+		width: 90px;
+	}
+	.hello-slider .banner-info {
+		bottom: calc(35px + 2rem);
+		left: calc(90px + 0px);
+	}
 	.hello-slider .banner-info .banner-description {
 		font-size: 12px;
 	}
