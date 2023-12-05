@@ -2989,11 +2989,14 @@ input:checked~.push {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+	.hello-slider .banner-info .banner-description {
+		font-size: 12px;
+	}
 	.hello-slider .banner-info .banner-title {
-		font-size: 26px;
+		font-size: 22px;
 	}
 	.hello-slider .banner-info .button {
-		font-size: 14px;
+		font-size: 10px;
 	}
 }
 
